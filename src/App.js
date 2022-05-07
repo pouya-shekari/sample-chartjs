@@ -3,7 +3,8 @@ const App = () => {
   return(
       <>
           {/*<BarChart />*/}
-          <LineChart />
+          {/*<LineChart />*/}
+          <PieChart />
       </>
   )
   ;
