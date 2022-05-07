@@ -2,12 +2,19 @@ import {BarChart , LineChart , PieChart} from './components'
 const App = () => {
   return(
       <>
-          {/*<BarChart />*/}
-          {/*<LineChart />*/}
-          <PieChart />
+          <div>
+              <BarChart />
+          </div>
+          <hr/>
+          <div>
+              <LineChart />
+          </div>
+          <hr/>
+          <div>
+              <PieChart />
+          </div>
       </>
-  )
-  ;
+  );
 }
 
 export {App};
